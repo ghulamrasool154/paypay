@@ -1,0 +1,57 @@
+.btn-ui {
+  font-size: 20px;
+  text-align: center;
+  line-height: 28px;
+  padding: 11px 24px;
+  border-radius: 8px;
+  border: 2px solid;
+  border-color: var(--dark-black);
+  background-color: var(--dark-black);
+  color: var(--primary);
+}
+.modal .btn-ui {
+  font-size: 15px;
+  line-height: 20px;
+}
+.default:hover,
+.outline {
+  background-color: transparent;
+  color: var(--dark-black);
+}
+
+.outline:hover {
+  background-color: var(--dark-black);
+  color: var(--primary);
+}
+
+.green {
+  border-color: var(--primary);
+  background-color: var(--primary);
+  color: var(--dark-black);
+}
+
+.green:hover {
+  border-color: var(--primary);
+  background-color: transparent;
+
+  color: var(--primary);
+}
+.disable {
+  border-color: var(--gray4);
+  background-color: var(--gray4);
+  color: var(--dark-black-2);
+}
+
+.red {
+  border-color: var(--red);
+  background-color: var(--red);
+  color: var(--white);
+}
+
+@media screen and (max-width: 768px) {
+  .btn-ui {
+    font-size: 18px;
+    line-height: inherit;
+    padding: 5px 20px;
+  }
+}

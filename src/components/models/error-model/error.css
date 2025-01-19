@@ -1,0 +1,9 @@
+.error-model .code-body {
+  padding-bottom: 0 !important;
+}
+.error-model .alert-icon {
+  background-color: var(--red3) !important;
+}
+.bill-model .code-title {
+  font-weight: 800 !important;
+}

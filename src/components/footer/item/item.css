@@ -1,0 +1,9 @@
+.footer-links .item {
+  font-size: 18px;
+  color: var(--primary);
+  line-height: 22px;
+}
+
+.footer-links .item:hover {
+  color: var(--white);
+}

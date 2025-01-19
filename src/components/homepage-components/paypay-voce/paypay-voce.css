@@ -1,0 +1,162 @@
+/* .left_voce_side {
+  padding-right: 40px;
+} */
+.voce_heading {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  color: #717577;
+  text-transform: uppercase;
+}
+.negocia_heading {
+  font-size: 40px;
+  line-height: 48px;
+  margin-top: 16px;
+  padding-right: 40px;
+  color: #383838;
+}
+.voce_desp {
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 28px;
+  margin-top: 24px;
+  padding-right: 80px;
+  color: #383838;
+}
+.baixar-button,
+.pague-button {
+  color: #383838;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 28px;
+  padding: 13px 59px;
+  background: #aed24d;
+  border: none;
+  border-radius: 8px;
+}
+.pague-button {
+  border: 2px solid #aed24d;
+  background-color: white;
+  padding: 12px 52px;
+  margin-left: 17px;
+}
+.button_area {
+  margin-top: 40px;
+}
+@media screen and (max-width: 1440px) {
+  .negocia_heading {
+    font-size: 38px;
+  }
+}
+@media screen and (max-width: 1280px) {
+  .negocia_heading {
+    font-size: 36px;
+    line-height: 42px;
+  }
+  .voce_desp {
+    font-size: 22px;
+    line-height: 26px;
+  }
+  .baixar-button,
+  .pague-button {
+    font-size: 18px;
+    padding: 13px 40px;
+  }
+}
+@media screen and (max-width: 1024px) {
+  .negocia_heading {
+    font-size: 32px;
+    line-height: 38px;
+  }
+  .voce_desp {
+    font-size: 20px;
+    margin-top: 20px;
+    padding-right: 60px;
+  }
+  .button_area {
+    margin-top: 25px;
+  }
+  .baixar-button,
+  .pague-button {
+    font-size: 18px;
+    padding: 12px 34px;
+  }
+  .paypayvoce-wrapper,
+  .economiza_wrapper,
+  .investe_wrapper {
+    padding: 20px 25px;
+  }
+}
+@media screen and (max-width: 992px) {
+  .calling_image {
+    width: 100%;
+    margin-top: 20px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .negocia_heading {
+    font-size: 30px;
+    line-height: 32px;
+  }
+  .voce_desp {
+    font-size: 18px;
+    margin-top: 16px;
+    margin-bottom: 0px;
+    padding-right: 0px;
+  }
+  .button_area {
+    margin-top: 20px;
+  }
+  .baixar-button,
+  .pague-button {
+    font-size: 18px;
+    padding: 10px 30px;
+  }
+  .paypayvoce-wrapper,
+  .economiza_wrapper,
+  .investe_wrapper {
+    padding: 20px 20px;
+  }
+  .paypayvoce-wrapper {
+    margin-top: 30px;
+  }
+}
+@media screen and (max-width: 576px) {
+  .negocia_heading {
+    font-size: 28px;
+    line-height: 32px;
+    padding-right: 0px;
+  }
+  .paypayvoce-wrapper,
+  .economiza_wrapper,
+  .investe_wrapper {
+    padding: 15px;
+  }
+  .paypayvoce-wrapper {
+    margin-top: 20px;
+  }
+}
+@media screen and (max-width: 480px) {
+  .baixar-button,
+  .pague-button {
+    width: 100%;
+  }
+  .pague-button {
+    margin-left: 0px;
+    margin-top: 15px;
+  }
+  .negocia_heading {
+    font-size: 24px;
+    line-height: 30px;
+  }
+  .paypayvoce-wrapper,
+  .economiza_wrapper,
+  .investe_wrapper {
+    padding: 10px;
+  }
+  .voce_desp {
+    font-size: 16px;
+    margin-top: 14px;
+    line-height: 20px;
+  }
+}

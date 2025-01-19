@@ -1,0 +1,77 @@
+.pay-left {
+  max-width: 530px;
+}
+.pay-right {
+  max-width: 465px;
+}
+
+.pay-left .left-title {
+  color: var(--dark-black);
+  font-size: 40px;
+  line-height: 48px;
+}
+
+.pay-left .left-des,
+.pay-left .left-sub-title {
+  font-size: 24px;
+  line-height: 28px;
+  color: var(--dark-black-2);
+}
+.pay-left .left-des {
+  margin: 2rem 0;
+}
+
+/* pay-right-title */
+
+.pay-right .pay-right-title {
+  font-size: 16px;
+  line-height: 20px;
+  color: var(--dark-black);
+}
+
+.payment-states .right-item-title {
+  font-size: 24px;
+  line-height: 20px;
+  letter-spacing: 0.4px;
+  color: var(--dark-black);
+  padding-top: 24px;
+}
+
+.payment-states img {
+  height: 56px;
+  width: 56px;
+}
+
+.right-item {
+  background-color: var(--primary);
+  border-radius: 8px;
+}
+
+@media screen and (max-width: 992px) {
+  .pay-left .left-title {
+    font-size: 30px;
+    line-height: inherit;
+  }
+  .payment-states .right-item-title,
+  .pay-left .left-des,
+  .pay-left .left-sub-title {
+    font-size: 20px;
+    line-height: inherit;
+  }
+  .pay-left .left-des {
+    margin: 1rem 0;
+  }
+  .pay-right {
+    max-width: 400px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .pay-left .left-title {
+    font-size: 25px;
+  }
+  .payment-states .right-item-title,
+  .pay-left .left-des,
+  .pay-left .left-sub-title {
+    font-size: 15px;
+  }
+}

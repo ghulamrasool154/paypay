@@ -1,0 +1,57 @@
+.main-header {
+  background-color: var(--primary);
+  padding: 35px 0;
+  padding-bottom: 55px;
+}
+
+.paypay-logo {
+  width: auto;
+  max-height: 42px;
+}
+
+/* SIDEBAR */
+
+.mobile-sidebar {
+  background-color: var(--dark-black);
+  width: 100%;
+  max-width: 300px;
+  transition: 0.5s ease-in-out all;
+}
+.mobile-sidebar.open {
+  left: 0;
+}
+.mobile-sidebar.close {
+  left: -300px;
+}
+.mobile-close {
+  color: var(--white);
+}
+.sidbear-overlay {
+  backdrop-filter: blur(4px);
+}
+.sidebar_modal_wrapper {
+  width: 664px !important;
+  border-radius: 16px 0 0 16px;
+}
+@media screen and (max-width: 1280px) {
+  .sidebar_modal_wrapper {
+    width: 550px !important;
+  }
+}
+@media screen and (max-width: 992px) {
+  .main-header {
+    padding: 20px 0;
+  }
+  .sidebar_modal_wrapper {
+    width: 450px !important;
+  }
+}
+
+@media screen and (max-width: 575px) {
+  .paypay-logo {
+    max-height: 30px;
+  }
+  .sidebar_modal_wrapper {
+    width: 350px !important;
+  }
+}

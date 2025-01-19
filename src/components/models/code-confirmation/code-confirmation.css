@@ -1,0 +1,65 @@
+.model-content-custom {
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.close-btn {
+  color: var(--gray5);
+  background-color: var(--gray4);
+  font-size: 15px;
+  width: 36px;
+  height: 36px;
+  border: none;
+}
+.error,
+.code-resend,
+.code-title {
+  color: var(--dark-black);
+  font-size: 18px;
+  line-height: 22px;
+}
+.code-title {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+.desc {
+  color: var(--dark-black);
+  line-height: 22px;
+  font-size: 16px;
+}
+.code-resend {
+  color: var(--primary3);
+}
+
+.list-number .input-ui {
+  font-size: 50px;
+  padding: 5.5px 12px;
+}
+
+.list-of-numbers {
+  display: grid;
+  grid-template-columns: repeat(6, minmax(0, 1fr));
+  gap: 12px;
+  max-width: 540px;
+  width: 100%;
+}
+.error {
+  color: var(--red);
+  font-size: 16px;
+}
+
+.error .input-ui {
+  color: var(--red);
+  border-color: var(--red);
+}
+
+@media screen and (max-width: 768px) {
+  .list-number .input-ui {
+    font-size: 40px;
+  }
+}
+@media screen and (max-width: 575px) {
+  .list-number .input-ui {
+    font-size: 25px;
+  }
+}

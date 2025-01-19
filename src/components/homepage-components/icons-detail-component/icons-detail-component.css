@@ -1,0 +1,46 @@
+.icons_section_detail_wrapper {
+  margin-top: 45px;
+}
+
+.second_web_section_icon_detail {
+  display: none !important;
+}
+@media screen and (max-width: 1280px) {
+  .icons_section_detail_wrapper .icons-left-detail {
+    width: 100%;
+    padding-bottom: 20px;
+  }
+  .icons_section_detail_wrapper .icons-left-detail .pague-heading br {
+    display: none;
+  }
+  .icons_section_detail_wrapper .detail_icon {
+    font-size: 18px;
+    margin-left: 10px;
+  }
+  .icons_section_detail_wrapper .icons {
+    width: 35px;
+    height: 35px;
+  }
+  .icons_section_detail_wrapper .icons_wrapper {
+    height: 70px;
+    width: 70px;
+  }
+  .icons_section_detail_wrapper .first_web_section_icon_detail {
+    display: none;
+  }
+  .icons_section_detail_wrapper .second_web_section_icon_detail {
+    display: block !important;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .icons_section_detail_wrapper .icons_section_detail_wrapper {
+    margin-top: 30px;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .icons_section_detail_wrapper .icons_section_detail_wrapper {
+    margin-top: 20px;
+  }
+}

@@ -1,0 +1,38 @@
+.bil-list {
+  padding: 10.5px 0;
+  padding-left: 30px;
+}
+.bil-list:not(:first-child) {
+  border-top: 1px solid var(--gray2);
+}
+.item-5,
+.item-1 {
+  max-width: 120px;
+}
+.item-2 {
+  max-width: 240px;
+}
+
+.item-3 {
+  max-width: 180px;
+}
+.item-4 {
+  min-width: 120px;
+  max-width: 124px;
+}
+
+.th {
+  font-size: 16px;
+  line-height: 24px;
+  color: var(--dark-black);
+  padding: 12px;
+}
+
+@media screen and (max-width: 768px) {
+  .bil-list {
+    padding-left: 15px;
+  }
+  .total-quties .left-t {
+    font-size: 15px;
+  }
+}

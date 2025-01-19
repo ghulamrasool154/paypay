@@ -1,0 +1,13 @@
+.input-ui {
+  padding: 8px 12px;
+  border: 1px solid var(--gray3);
+  border-radius: 3px;
+  color: var(--gray3);
+}
+.input-ui:focus-visible {
+  outline: none;
+}
+.input-ui::placeholder {
+  color: var(--gray3);
+  font-family: var(--font-lato);
+}

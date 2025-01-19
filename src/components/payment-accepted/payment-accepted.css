@@ -1,0 +1,224 @@
+.accepted-modal-wrapper,
+.accepted_wrapper {
+  background-color: #aed24d;
+}
+.accepted_wrapper {
+  padding: 25px;
+  justify-content: end;
+}
+.accepted_content {
+  padding-left: 50px;
+  padding-right: 50px;
+}
+.accepted_content h4 {
+  font-size: 40px;
+  font-weight: 700;
+  color: #383838;
+  margin-bottom: 32px;
+  margin-top: 32px;
+}
+.accepted_content p {
+  font-size: 18px;
+  font-weight: 500;
+  color: #383838;
+  margin-bottom: 72px;
+}
+.comprovante {
+  font-size: 18px;
+  font-weight: 600;
+  color: #383838;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  background: white;
+  border: none;
+  border-radius: 8px;
+  max-width: 280px;
+  margin-bottom: 16px;
+  width: 100%;
+}
+.comprovante:hover {
+  color: #fff;
+  background-color: #383838;
+}
+.outra_conta {
+  font-size: 18px;
+  font-weight: 600;
+  color: #ffff;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  background-color: #383838;
+  border: none;
+  border-radius: 8px;
+  max-width: 280px;
+  width: 100%;
+}
+.outra_conta:hover {
+  background: #fff;
+  color: #383838;
+}
+.sidebar_button_wrapper {
+  margin-bottom: 80px;
+  display: flex;
+  flex-direction: column;
+}
+.app_pay {
+  background-image: url("/reject-accpeted/bg.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding-top: 56px;
+  padding-left: 50px;
+}
+.app_pay_left_side {
+  width: 60%;
+}
+.app_pay .app_pay_left_side h4 {
+  font-size: 28px;
+  font-weight: 600;
+  color: #aed24d;
+}
+.app_pay_left_side p {
+  font-size: 16px;
+  font-weight: 400;
+  color: #aed24d;
+  margin-bottom: 0px;
+  margin-top: 24px;
+}
+.app_pay button {
+  color: #383838;
+  font-size: 18px;
+  font-weight: 600;
+  background-color: #aed24d;
+  padding: 9px 32px;
+  border-radius: 8px;
+  border: none;
+  margin-top: 23px;
+  margin-bottom: 50px;
+}
+.accepted-modal-wrapper::-webkit-scrollbar {
+  width: 8px; /* width of the entire scrollbar */
+}
+.accepted-modal-wrapper::-webkit-scrollbar-track {
+  background: #aed24d; /* color of the tracking area */
+}
+.accepted-modal-wrapper::-webkit-scrollbar-thumb {
+  background-color: #aed24d; /* color of the scroll thumb */
+  border-radius: 20px; /* roundness of the scroll thumb */
+  border: 1px solid #aed24d;
+}
+.app_pay_right_side {
+  padding-right: 16px;
+  display: flex;
+  align-items: end;
+}
+.closed_button {
+  background-color: white;
+  width: 42px;
+  height: 42px;
+  border-radius: 50%;
+  border: none;
+}
+@media screen and (max-width: 1280px) {
+  .accepted_content h4 {
+    font-size: 36px;
+    margin-bottom: 28px;
+    margin-top: 28px;
+  }
+  .accepted_content p {
+    margin-bottom: 50px;
+  }
+  .sidebar_button_wrapper {
+    margin-bottom: 50px;
+  }
+  .comprovante,
+  .outra_conta {
+    max-width: 250px;
+  }
+  .app_pay .app_pay_left_side h4 {
+    font-size: 20px;
+  }
+  .app_pay_right_side img {
+    width: 200px;
+    height: 250px;
+  }
+  .app_pay_left_side p {
+    font-size: 14px;
+  }
+  .app_pay button {
+    font-size: 16px;
+    padding: 9px 28px;
+  }
+}
+@media screen and (max-width: 992px) {
+  .accepted_content {
+    padding-left: 25px;
+    padding-right: 25px;
+  }
+  .accepted_content h4 {
+    font-size: 28px;
+    margin-bottom: 28px;
+    margin-top: 20px;
+  }
+  .accepted_content p {
+    margin-bottom: 20px;
+  }
+  .comprovante,
+  .outra_conta {
+    min-width: 220px;
+    font-size: 16px;
+  }
+  .sidebar_button_wrapper {
+    margin-bottom: 55px;
+  }
+  .app_pay {
+    padding-top: 25px;
+    padding-left: 25px;
+  }
+  .app_pay .app_pay_left_side h4 {
+    font-size: 18px;
+  }
+  .app_pay_left_side p {
+    font-size: 12px;
+    margin-top: 20px;
+  }
+  .app_pay button {
+    font-size: 14px;
+    padding: 9px 28px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .accepted_content {
+    padding-left: 25px;
+    padding-right: 25px;
+  }
+}
+@media screen and (max-width: 576px) {
+  .accepted_content img {
+    width: 30px;
+    height: 30px;
+  }
+  .app_pay {
+    padding-top: 50px;
+    padding-left: 25px;
+  }
+  .accepted_content h4 {
+    font-size: 24px;
+  }
+  .comprovante,
+  .outra_conta {
+    min-width: 250px;
+    font-size: 14px;
+  }
+  .accepted_content p {
+    margin-bottom: 20px;
+  }
+  .app_pay {
+    flex-direction: column;
+    padding-right: 25px;
+  }
+  .app_pay_left_side {
+    width: 100%;
+  }
+  .app_pay_right_side {
+    justify-content: center;
+  }
+}

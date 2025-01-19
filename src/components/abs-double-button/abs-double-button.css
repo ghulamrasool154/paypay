@@ -1,0 +1,69 @@
+.abs_baxiar_app {
+  font-weight: 600;
+  font-size: 20px;
+  color: #383838;
+  padding: 13px 0px;
+  border-radius: 8px;
+  background: #aed24d;
+  border: none;
+  max-width: 231px;
+  width: 100%;
+}
+.abs_pague_web {
+  font-weight: 600;
+  font-size: 20px;
+  color: #383838;
+  padding: 13px 0px;
+  background: #fff;
+  border: 1px solid #aed24d;
+  border-radius: 8px;
+  margin-left: 17px;
+  max-width: 231px;
+  width: 100%;
+}
+.abs_baxiar_app:hover {
+  color: #383838;
+  background: #fff;
+  border: 1px solid #aed24d;
+}
+.abs_pague_web:hover {
+  border: 1px solid #383838;
+  background: #aed24d;
+  border: 1px solid #aed24d;
+}
+@media screen and (max-width: 1280px) {
+  .abs_baxiar_app,
+  .abs_pague_web {
+    font-size: 18px;
+    padding: 13px 0px;
+  }
+}
+@media screen and (max-width: 1120px) {
+  .abs_baxiar_app,
+  .abs_pague_web {
+    font-size: 16px;
+    padding: 13px 0px;
+    max-width: 190px;
+  }
+}
+@media screen and (max-width: 1024px) {
+  .abs_baxiar_app,
+  .abs_pague_web {
+    font-size: 18px;
+    padding: 10px 30px;
+  }
+}
+@media screen and (max-width: 496px) {
+  .abs_baxiar_web_wrapper {
+    display: flex;
+    flex-direction: column;
+  }
+  .abs_pague_web {
+    margin-left: 0px;
+    margin-top: 15px;
+  }
+  .abs_baxiar_app,
+  .abs_pague_web {
+    max-width: 100%;
+  }
+}

@@ -1,0 +1,101 @@
+.pagement-side-form {
+  max-width: 465px;
+}
+
+.right-side-heading {
+  font-size: 16px;
+  line-height: 20px;
+  color: var(--dark-black);
+}
+
+/* right-form-select-option */
+
+.right-form-select-option a {
+  padding: 12px 1rem;
+
+  border-radius: 8px;
+}
+
+.right-form-select-option .opti-title {
+  font-size: 20px;
+  line-height: 20px;
+  letter-spacing: 0.4px;
+  color: var(--dark-black);
+}
+
+.is-active-green {
+  background-color: var(--primary);
+}
+.disable-green {
+  background-color: var(--gray2);
+}
+
+.textarea {
+  height: 118px;
+  resize: none;
+}
+
+/* form INPUT  */
+
+.input-ui {
+  padding: 9px 12px;
+  border: 1px solid var(--gray3);
+  border-radius: 3px;
+  color: var(--gray3);
+}
+.checked-btn label {
+  font-size: 16px !important;
+}
+.input-ui:focus-visible {
+  outline: none;
+}
+.input-ui::placeholder {
+  color: var(--gray3);
+  font-family: var(--font-lato);
+}
+
+/* fORM */
+/* INPUT TEXT AREA  STARTED*/
+.checkbox {
+  position: relative;
+  appearance: none;
+  width: 16px;
+  height: 16px;
+}
+
+.checkbox {
+  width: 16px;
+  height: 16px;
+  display: block;
+  border-radius: 4px;
+  content: "";
+  inset: 0;
+  border: 0.6px solid var(--primary2);
+}
+
+.checkbox:checked:after {
+  content: "\f00c";
+  font-family: "FontAwesome";
+  background-color: var(--primary2);
+  font-size: 10px;
+  position: absolute;
+  text-align: center;
+  color: var(--white);
+  inset: 0;
+}
+
+/* INPUT TEXT ARE END */
+@media screen and (max-width: 992px) {
+  .right-form-select-option .opti-title {
+    font-size: 16px;
+    line-height: inherit;
+  }
+  .right-form-select-option a {
+    padding: 10px 12px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .pagement-side-form {
+    max-width: 100%;
+  }
+}

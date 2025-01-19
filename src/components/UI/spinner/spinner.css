@@ -1,0 +1,20 @@
+/* LOAING SPIINER*/
+.spinner-ui {
+  width: 54px;
+  height: 54px;
+  border: 6px solid var(--opacity14);
+  border-bottom-color: var(--primary);
+  border-radius: 50%;
+  display: inline-block;
+  box-sizing: border-box;
+  animation: rotation 1s linear infinite;
+}
+
+@keyframes rotation {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}

@@ -1,0 +1,16 @@
+.bill-model .alert-icon {
+  background-color: var(--red3) !important;
+}
+
+.talsh {
+  margin-top: -3px;
+  margin-right: 8px;
+}
+
+.red:hover .talsh {
+  color: var(--red);
+}
+
+.bill-model .body-para {
+  color: var(--gray5);
+}

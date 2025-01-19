@@ -1,0 +1,113 @@
+.td {
+  font-size: 14px;
+  line-height: 18px;
+  padding: 12px;
+  color: var(--gray5);
+}
+.item-5 .down-arrwo,
+.item-5 .delete-icons {
+  font-size: 20px;
+  color: var(--red);
+}
+.item-5 .down-arrwo {
+  font-size: 18px;
+  color: var(--gray5);
+  transition: all 300ms ease-in-out;
+}
+.item-5 .down-arrwo.rotate {
+  transform: rotate(180deg);
+}
+.item-5 .down-arrwo:hover {
+  color: var(--dark-black-3);
+}
+.item-4 span {
+  color: var(--dark-black-3);
+}
+
+.item-1 .status-item {
+  background-color: var(--gra6);
+  border-radius: 4px;
+  padding: 4px 12px;
+}
+
+.status-item span {
+  width: 8px;
+  height: 8px;
+  border-radius: 50px;
+  margin-right: 6px;
+}
+.status-item span.cancelado,
+.status-item span.vencido {
+  background-color: var(--red);
+}
+.status-item span.pago {
+  background-color: var(--primary);
+}
+.status-item span.em-aberto {
+  background-color: var(--orange);
+}
+
+/* BILL ITEM DETAIL */
+
+.detail-item {
+  display: grid;
+  grid-template-columns: repeat(5, minmax(0, 1fr));
+  gap: 8px;
+  padding-right: 30px;
+}
+.detail-item .grid-column {
+  background-color: var(--gra6);
+  padding: 16px 12px;
+  border-radius: 10px;
+}
+
+.grid-column .desc,
+.grid-column .title {
+  font-size: 16px;
+  line-height: 20px;
+  letter-spacing: 0.4px;
+}
+
+.grid-column .title {
+  color: var(--gray5);
+}
+.grid-column .desc {
+  color: var(--dark-black);
+}
+
+.grid-column .red-color {
+  color: var(--red2);
+}
+.grid-column .green-color {
+  color: var(--primary2);
+}
+
+.bil-title {
+  font-size: 16px;
+  line-height: 24px;
+  color: var(--dark-black-2);
+}
+
+.item-2 {
+  padding: 12px;
+}
+.item-2 .td,
+.item-2 .th {
+  padding: 0 !important;
+}
+
+.item-2 p {
+  display: -webkit-box;
+  -webkit-line-clamp: 1;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+.bills {
+  min-width: 600px;
+}
+
+@media screen and (max-width: 768px) {
+  .detail-item {
+    padding-right: 15px;
+  }
+}

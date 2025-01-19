@@ -1,0 +1,10 @@
+.label-ui {
+  font-size: 14px;
+  line-height: 20px;
+  color: var(--dark-black);
+}
+
+.checked-btn .label-ui {
+  margin-bottom: 0 !important;
+  margin-left: 10px;
+}

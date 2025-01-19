@@ -1,0 +1,137 @@
+.clients_dizem_wrapper {
+  padding: 100px 0px;
+  background-color: #f6f9f8;
+}
+.clients_dizem_header {
+  font-size: 50px;
+  font-weight: 500;
+  color: #000;
+  margin-bottom: 0px;
+  text-align: center;
+}
+.first_card_client h5 {
+  font-size: 18px;
+  font-weight: 400;
+  color: #383838;
+  margin-bottom: 0px;
+  line-height: 26px;
+  margin-top: 28px;
+  min-height: 203px;
+}
+.first_card_client h5 span {
+  font-size: 18px;
+  font-weight: 700;
+  /* color: #161919; */
+  margin-bottom: 0px;
+}
+.logo_section_client h2 {
+  font-size: 18px;
+  font-weight: 500;
+  color: #161919;
+  margin-bottom: 0px;
+}
+.logo_section_client {
+  margin-top: 15px;
+}
+.logo_section_client p {
+  font-size: 18px;
+  font-weight: 400;
+  color: #717577;
+  margin-bottom: 0px;
+}
+.first_card_client {
+  background-color: white;
+  padding: 36px 47px;
+  border-radius: 20px;
+}
+.name_and_demo {
+  margin-left: 12px;
+}
+.clients_cards {
+  margin-top: 78px;
+}
+.second_card_bg {
+  background: #383838;
+}
+.second_card_bg h5,
+.second_card_bg h5 span,
+.second_card_bg h2,
+.second_card_bg p {
+  color: #aed24d;
+}
+@media screen and (max-width: 1440px) {
+  .clients_dizem_wrapper {
+    padding: 75px 0px;
+  }
+  .clients_dizem_header {
+    font-size: 46px;
+  }
+}
+@media screen and (max-width: 1280px) {
+  .first_card_client {
+    padding: 32px 40px;
+  }
+}
+
+@media screen and (max-width: 1100px) {
+  .first_card_client {
+    padding: 26px;
+  }
+  .clients_dizem_header {
+    font-size: 42px;
+  }
+}
+@media screen and (max-width: 1024px) {
+  .clients_dizem_wrapper {
+    padding: 50px 0px;
+  }
+  .first_card_client h5 {
+    font-size: 17px;
+  }
+}
+@media screen and (max-width: 992px) {
+  .clients_dizem_header {
+    font-size: 38px;
+  }
+  .clients_cards {
+    margin-top: 50px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .clients_dizem_wrapper {
+    padding: 30px 0px;
+  }
+  .clients_dizem_header {
+    font-size: 32px;
+  }
+  .clients_cards {
+    margin-top: 25px;
+  }
+  .first_card_client h5 {
+    min-height: 0;
+  }
+}
+@media screen and (max-width: 576px) {
+  .clients_dizem_header {
+    font-size: 26px;
+  }
+  .first_card_client img {
+    width: 40px;
+    height: 40px;
+  }
+  .logo_section_client h2,
+  .logo_section_client p {
+    font-size: 16px;
+  }
+  .clients_dizem_wrapper {
+    padding: 20px 0px;
+  }
+}
+@media screen and (max-width: 480px) {
+  .clients_dizem_header {
+    font-size: 22px;
+  }
+  .first_card_client {
+    padding: 25px;
+  }
+}

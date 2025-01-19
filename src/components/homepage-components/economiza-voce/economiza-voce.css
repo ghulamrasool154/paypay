@@ -1,0 +1,24 @@
+.economiza_wrapper {
+  background: none !important;
+}
+.econo_wrap_2 {
+  margin-top: 140px;
+}
+@media screen and (max-width: 992px) {
+  .econmiza_resp {
+    padding-top: 15px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .economiza_wrapper {
+    margin-top: 30px;
+  }
+  .economiza_wrapper .right-voce-side img {
+    margin-top: 0px;
+  }
+}
+@media screen and (max-width: 576px) {
+  .economiza_wrapper {
+    margin-top: 20px;
+  }
+}

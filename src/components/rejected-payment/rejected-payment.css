@@ -1,0 +1,67 @@
+.rejected-modal-wrapper,
+.rejected_wrapper {
+  background: #fee4e2;
+}
+.rejected_modal {
+  padding-left: 50px;
+  padding-right: 50px;
+  width: 100%;
+}
+.rejected_modal h4 {
+  font-size: 40px;
+  font-weight: 700;
+  color: #912018;
+  margin-bottom: 72px;
+  margin-top: 32px;
+}
+.rejected_modal button {
+  font-size: 18px;
+  font-weight: 600;
+  color: #383838;
+  padding: 12px 0px;
+  background: #fff;
+  border: none;
+  border-radius: 8px;
+  max-width: 280px;
+  width: 100%;
+}
+.rejected_wrapper {
+  justify-content: end;
+}
+@media screen and (max-width: 1280px) {
+  .rejected_modal {
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+}
+@media screen and (max-width: 992px) {
+  .rejected_modal h4 {
+    font-size: 36px;
+    margin-top: 32px;
+  }
+  .rejected_modal {
+    padding-left: 25px;
+    padding-right: 25px;
+  }
+  .rejected_modal button {
+    min-width: 220px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .rejected_modal {
+    padding-left: 25px;
+    padding-right: 25px;
+  }
+}
+@media screen and (max-width: 576px) {
+  .rejected_modal h4 {
+    font-size: 28px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+  }
+  .rejected_modal button {
+    font-size: 16px;
+    padding: 12px 0px;
+    max-width: 210px;
+  }
+}

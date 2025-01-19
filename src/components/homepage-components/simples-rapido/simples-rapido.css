@@ -1,0 +1,338 @@
+.simples_heading {
+  font-size: 40px;
+  line-height: 48px;
+  margin-bottom: 48px;
+  padding-top: 98px;
+  color: #383838;
+}
+.simples_wrapper {
+  margin-top: 80px;
+}
+.simples_heading span {
+  font-weight: 500;
+}
+.main_button_pagar_wrapper {
+  background-color: #f2f3f2;
+  width: 379px;
+  border-radius: 8px;
+  overflow: hidden;
+  margin-bottom: 48px;
+}
+.pagar_button {
+  font-size: 18px;
+  font-weight: 500;
+  padding: 8px 32px;
+  text-align: center;
+  margin-bottom: 0;
+  cursor: pointer;
+  color: #031b1d;
+}
+.pagar_web_button {
+  font-size: 18px;
+  font-weight: 500;
+  padding: 8px 32px;
+  text-align: center;
+  margin-bottom: 0;
+  cursor: pointer;
+  color: #031b1d;
+}
+.first_tab.active {
+  background-color: #aed24d;
+  /* border-radius: 8px; */
+  color: #031b1d;
+}
+.main_investe_wrapper_left .nav-link:focus,
+.nav-link:hover {
+  color: #031b1d !important;
+}
+.simples_rapido_main_wrapper .active {
+  background-color: #aed24d;
+  border-radius: 0px;
+}
+.simples_rapido_main_wrapper .tabs_margin.active {
+  background-color: #e5f1c6;
+  border-radius: 8px;
+}
+.simples_rapido_main_wrapper .tabs_margin {
+  margin-bottom: 16px;
+}
+.tabs_lower_content .active .numbering_tabs {
+  min-width: 52px;
+  height: 52px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 24px;
+  font-weight: 600;
+  color: #171717;
+  background-color: #aed24d;
+  border-radius: 12px;
+  margin-right: 24px;
+}
+.tabs_lower_content .active .tabs_content_heading {
+  font-size: 24px;
+  font-weight: 600;
+  color: #171717;
+}
+.tabs_lower_content .numbering_tabs {
+  min-width: 52px;
+  height: 52px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 24px;
+  font-weight: 600;
+  color: #adaeae;
+  background-color: #f1f5f9;
+  border-radius: 12px;
+  margin-right: 24px;
+}
+.tabs_lower_content .tabs_content_heading {
+  font-size: 24px;
+  font-weight: 600;
+  color: #adaeae;
+}
+.right_investe_wrapper_bg {
+  background-color: #aed24d;
+}
+.image_padding {
+  padding-top: 130px;
+}
+.right_bar_button_baxior,
+.right_bar_button_pague {
+  font-size: 20px;
+  font-weight: 600;
+  color: #aed24d;
+  padding: 13px 0px;
+  background-color: #383838;
+  border: none;
+  border-radius: 8px;
+  max-width: 231px;
+  width: 100%;
+}
+.right_bar_button_baxior:hover {
+  background: #aed24d;
+  border: 1px solid #383838;
+  color: #383838;
+}
+.right_bar_button_pague:hover {
+  background-color: #383838 !important;
+  color: #aed24d !important;
+}
+.buttons_wrapper_right_one {
+  padding-top: 56px;
+  padding-bottom: 61px;
+}
+.simples_rapido_main_wrapper .right_bar_button_pague {
+  border: 1px solid #383838;
+  background: none;
+  color: #383838;
+  margin-left: 17px;
+}
+.simples_rapido_main_wrapper .last_mobile_ss_bg {
+  background-color: #383838;
+}
+.last_mobile_ss_bg .right_bar_button_pague {
+  background-color: #383838;
+  color: #aed24d;
+  border: 1px solid #aed24d;
+}
+.last_mobile_ss_bg .right_bar_button_baxior {
+  background: #aed24d;
+  color: #383838;
+}
+.simples_rapido_main_wrapper .bg_web_tab {
+  background: #383838;
+  padding-top: 118px;
+}
+.bg_web_tab .right_bar_button_baxior {
+  background: #aed24d;
+  border-radius: 8px;
+  color: #383838;
+}
+.bg_web_tab .right_bar_button_pague {
+  color: #aed24d;
+  background: #383838;
+  border: 1px solid #aed24d;
+}
+.simples_rapido_main_wrapper .buttons_wrapper_right_second {
+  margin-top: 169px;
+  padding-bottom: 60px;
+}
+.simples_rapido_main_wrapper .buttons_wrapper_second {
+  padding-bottom: 60px;
+  margin-top: 114px;
+}
+.simples_rapido_main_wrapper .right_investo_bg_black {
+  background: #383838;
+}
+.simples_rapido_main_wrapper .bg_black_button {
+  background: #aed24d;
+  color: #383838;
+}
+.simples_rapido_main_wrapper .bg_black_button_2 {
+  color: #aed24d;
+  background: #383838;
+  border: 1px solid #aed24d;
+}
+.bg_web_tab .right_bar_button_baxior:hover {
+  background: #383838;
+  border: 1px solid #aed24d;
+  color: #aed24d;
+}
+.bg_web_tab .right_bar_button_pague:hover {
+  background: #aed24d !important;
+  border: 1px solid #383838;
+  color: #383838 !important;
+}
+.simples_rapido_main_wrapper .bg_black_button:hover {
+  background-color: #383838 !important;
+  border: 1px solid #aed24d !important;
+  color: #aed24d !important;
+}
+.simples_rapido_main_wrapper .bg_black_button_2:hover {
+  background-color: #aed24d !important;
+  color: #383838 !important;
+}
+@media screen and (max-width: 1440px) {
+  .simples_rapido_main_wrapper .simples_heading {
+    font-size: 38px;
+  }
+}
+@media screen and (max-width: 1280px) {
+  .simples_rapido_main_wrapper .simples_heading {
+    font-size: 32px;
+    line-height: 42px;
+    margin-bottom: 30px;
+  }
+  .tabs_lower_content .active .tabs_content_heading {
+    font-size: 22px;
+  }
+  .tabs_lower_content .tabs_content_heading {
+    font-size: 22px;
+  }
+  .tabs_lower_content .active .numbering_tabs,
+  .tabs_lower_content .numbering_tabs {
+    width: 50px;
+    height: 50px;
+    font-size: 22px;
+    margin-right: 18px;
+  }
+  .simples_rapido_main_wrapper .right_bar_button_baxior,
+  .simples_rapido_main_wrapper .right_bar_button_pague {
+    font-size: 16px;
+    padding: 13px 0px;
+    max-width: 190px;
+  }
+}
+@media screen and (max-width: 1024px) {
+  .simples_rapido_main_wrapper .simples_heading {
+    font-size: 32px;
+    line-height: 38px;
+  }
+  .tabs_lower_content .active .tabs_content_heading,
+  .tabs_lower_content .tabs_content_heading {
+    font-size: 20px;
+  }
+  .simples_rapido_main_wrapper .simples_wrapper {
+    margin-top: 50px;
+  }
+}
+@media screen and (max-width: 992px) {
+  .simples_rapido_main_wrapper .simples_heading {
+    padding-top: 0px;
+  }
+  .simples_rapido_main_wrapper .image_padding {
+    padding-top: 50px;
+  }
+  .simples_rapido_main_wrapper .buttons_wrapper_right_one {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .simples_rapido_main_wrapper .simples_heading {
+    font-size: 30px;
+    line-height: 32px;
+  }
+  .simples_rapido_main_wrapper .right_bar_button_baxior,
+  .simples_rapido_main_wrapper .right_bar_button_pague {
+    font-size: 18px;
+    padding: 10px 30px;
+  }
+  .simples_rapido_main_wrapper .simples_wrapper {
+    margin-top: 30px;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .simples_rapido_main_wrapper .simples_heading {
+    font-size: 28px;
+  }
+  .tabs_lower_content .active .tabs_content_heading,
+  .tabs_lower_content .tabs_content_heading {
+    font-size: 18px;
+  }
+  .simples_rapido_main_wrapper .pagar_button,
+  .simples_rapido_main_wrapper .pagar_web_button {
+    font-size: 16px;
+    padding: 8px 26px;
+  }
+  .simples_rapido_main_wrapper .main_button_pagar_wrapper {
+    width: 330px;
+    margin-bottom: 20px;
+  }
+  .simples_rapido_main_wrapper .simples_wrapper {
+    margin-top: 20px;
+  }
+}
+@media screen and (max-width: 480px) {
+  .simples_rapido_main_wrapper .baixar-button,
+  .simples_rapido_main_wrapper .pague-button {
+    width: 100%;
+  }
+  .simples_rapido_main_wrapper .pague-button {
+    margin-left: 0px;
+    margin-top: 15px;
+  }
+  .simples_rapido_main_wrapper .simples_heading {
+    font-size: 24px;
+    line-height: 30px;
+  }
+  .tabs_lower_content .active .numbering_tabs,
+  .tabs_lower_content .numbering_tabs {
+    width: 40px;
+    height: 40px;
+    font-size: 16px;
+    margin-right: 10px;
+  }
+  .tabs_lower_content .active .tabs_content_heading,
+  .tabs_lower_content .tabs_content_heading {
+    font-size: 14px;
+  }
+  .simples_rapido_main_wrapper .buttons_wrapper_right_one,
+  .simples_rapido_main_wrapper .buttons_wrapper_right_second {
+    flex-direction: column;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  .simples_rapido_main_wrapper .right_bar_button_pague {
+    margin-left: 0px;
+    margin-top: 15px;
+  }
+  .simples_rapido_main_wrapper .right_bar_button_baxior,
+  .simples_rapido_main_wrapper .right_bar_button_pague {
+    font-size: 18px;
+    padding: 10px 0px;
+    max-width: 100%;
+  }
+}
+@media screen and (max-width: 400px) {
+  .simples_rapido_main_wrapper .pagar_button,
+  .simples_rapido_main_wrapper .pagar_web_button {
+    font-size: 14px;
+  }
+  .simples_rapido_main_wrapper .main_button_pagar_wrapper {
+    width: 300px;
+  }
+}

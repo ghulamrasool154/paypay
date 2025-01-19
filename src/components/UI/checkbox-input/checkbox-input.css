@@ -1,0 +1,27 @@
+.checkbox {
+  position: relative;
+  appearance: none;
+  width: 16px;
+  height: 16px;
+}
+
+.checkbox {
+  width: 16px;
+  height: 16px;
+  display: block;
+  border-radius: 4px;
+  content: "";
+  inset: 0;
+  border: 0.6px solid var(--primary2);
+}
+
+.checkbox:checked:after {
+  content: "\f00c";
+  font-family: "FontAwesome";
+  background-color: var(--primary2);
+  font-size: 10px;
+  position: absolute;
+  text-align: center;
+  color: var(--white);
+  inset: 0;
+}

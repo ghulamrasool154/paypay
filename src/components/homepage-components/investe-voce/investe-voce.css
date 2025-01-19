@@ -1,0 +1,13 @@
+.button_area {
+  flex-direction: column;
+}
+@media screen and (max-width: 768px) {
+  .investe_wrapper {
+    margin-top: 30px;
+  }
+}
+@media screen and (max-width: 576px) {
+  .investe_wrapper {
+    margin-top: 20px;
+  }
+}
